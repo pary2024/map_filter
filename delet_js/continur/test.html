@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        height: 100px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .navbar {
+        height: 30px;
+        width: 300px;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+      .btn {
+        height: 30px;
+        width: 100px;
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+      .btn:nth-child(1) {
+        background-color: blue;
+        color: white;
+      }
+      .boxing {
+        height: 500px;
+        background-color: yellow;
+        width: 100%;
+        display: flex;
+        /* padding: 50px; */
+        gap: 10px;
+        padding: 20px;
+      }
+      .box {
+        height: 400px;
+        width: 400px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 40px;
+      }
+      .remove{
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+       <div class="btn">delete</div>
+       <div class="btn">adding</div>
+      </nav>
+    </div>
+    <div class="boxing">
+      <div class="box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          illo nesciunt voluptatibus. Dolorem, eligendi rem quibusdam laborum
+          accusantium, ea voluptatum error dolores odit tempore, voluptatem
+          eveniet! Dolor adipisci quisquam laborum!
+        </p>
+      </div>
+      <div class="box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          illo nesciunt voluptatibus. Dolorem, eligendi rem quibusdam laborum
+          accusantium, ea voluptatum error dolores odit tempore, voluptatem
+          eveniet! Dolor adipisci quisquam laborum!
+        </p>
+      </div>
+      <div class="box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          illo nesciunt voluptatibus. Dolorem, eligendi rem quibusdam laborum
+          accusantium, ea voluptatum error dolores odit tempore, voluptatem
+          eveniet! Dolor adipisci quisquam laborum!
+        </p>
+      </div>
+      <div class="box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          illo nesciunt voluptatibus. Dolorem, eligendi rem quibusdam laborum
+          accusantium, ea voluptatum error dolores odit tempore, voluptatem
+          eveniet! Dolor adipisci quisquam laborum!
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="test.js"></script>
+</html>

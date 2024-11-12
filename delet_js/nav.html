@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .nav {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+      }
+      .btn {
+        height: 30px;
+        width: 50px;
+        border: 2px solid gray;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+        padding: 5px 5px;
+      }
+      .btn:nth-child(1) {
+        background-color: red;
+      }
+      .btn:nth-child(2) {
+        background-color: blue;
+      }
+      .parent {
+        height: 100vh;
+        background-color: aqua;
+        padding: 30px;
+        display: flex;
+        gap: 30px;
+      }
+      .child {
+        height: 300px;
+        width: 200px;
+        background-color: gray;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px solid black;
+      }
+      .remove{
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="btn">remove</div>
+      <div class="btn">add</div>
+    </div>
+
+    <div class="parent">
+      <div class="child">
+        <p> 
+            1
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum esse
+          quis optio nihil amet reprehenderit natus ipsa dolore, deleniti omnis
+          fugit odit laborum? Soluta voluptatum beatae, magni fugiat iste
+          labore.
+        </p>
+      </div>
+      <div class="child">
+        <p>
+            2
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum esse
+          quis optio nihil amet reprehenderit natus ipsa dolore, deleniti omnis
+          fugit odit laborum? Soluta voluptatum beatae, magni fugiat iste
+          labore.
+        </p>
+      </div>
+      <div class="child">
+        <p>
+            3
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum esse
+          quis optio nihil amet reprehenderit natus ipsa dolore, deleniti omnis
+          fugit odit laborum? Soluta voluptatum beatae, magni fugiat iste
+          labore.
+        </p>
+      </div>
+      <div class="child">
+        <p>
+            4
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum esse
+          quis optio nihil amet reprehenderit natus ipsa dolore, deleniti omnis
+          fugit odit laborum? Soluta voluptatum beatae, magni fugiat iste
+          labore.
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="style.js"></script>
+</html>
